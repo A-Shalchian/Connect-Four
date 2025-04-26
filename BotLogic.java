@@ -6,7 +6,6 @@ public class BotLogic {
     private static final char PLAYER = 'X';
     private static final int MAX_DEPTH = 6;
     
-    // Center columns are generally more valuable in Connect Four
     private final int[] columnScores = {3, 4, 5, 7, 5, 4, 3};
     
     public int[] findBestMove(char[][] board, char botSymbol) {

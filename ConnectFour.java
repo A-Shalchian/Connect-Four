@@ -332,9 +332,4 @@ public class ConnectFour {
     private void switchPlayer() {
         currentPlayer = (currentPlayer == PLAYER1) ? PLAYER2 : PLAYER1;
     }
-    
-    public static void main(String[] args) {
-        ConnectFour game = new ConnectFour();
-        game.startGame();
-    }
 } 
