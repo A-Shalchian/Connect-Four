@@ -2,6 +2,8 @@
 
 A **Java** implementation of the classic Connect Four game with both **single-player** and **two-player** modes.
 
+![main menu](assets/mainMenu.jpg)
+
 ## 🧩 Game Description
 
 **Connect Four** is a two-player connection game in which the players take turns dropping discs into a vertically suspended grid. 
@@ -42,6 +44,7 @@ The objective of the game is to be the first to form a horizontal, vertical, or 
    - Take turns selecting columns (1-7) to drop your pieces
    - First player to connect four pieces in a row (horizontally, vertically, or diagonally) wins. 🏆
 
+![first round](assets/firstRound.jpg)
 ## 🎮 Game Controls
 
 🔢 Enter a number 1-7 to select a column
